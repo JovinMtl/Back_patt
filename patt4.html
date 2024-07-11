@@ -18,6 +18,7 @@
         body{
             /* width: 500px;
             height: 500px; */
+            --s: 130px;
             --_c: rgb(255 0 0 / 50%) 5%, 
                                         rgb(0 0 0/80%) 14% 18%,
                                         rgb(0 0 0 /0%) 28%;
@@ -25,23 +26,12 @@
             --two: radial-gradient(100% 80%  at 108% 3%, var(--_c));
             --three: radial-gradient(100% 80%  at 6% 3%, var(--_c));
             --four: radial-gradient(100% 80%  at 109% 100%,var(--_c));
-            --five: radial-gradient(80% 80%  at 30% 78%, var(--five));
+            --five: radial-gradient(80% 80%  at 30% 78%, var(--_c));
+            --six: radial-gradient(40% 40%  at 50% 56%, var(--_c));
             background-color: white;
             background-image: var(--one), var(--two),var(--three), 
-                            var(--four), var(--five) ,
-
-                            radial-gradient(40% 40%  at 50% 56%, 
-                                        rgb(255 0 0 / 50%) 5%, 
-                                        rgb(0 0 0/80%) 14% 18%,
-                                        rgb(0 0 0 /0%) 28%)
-
-                            /* ,conic-gradient( at 0% 100%, 
-                                        rgb(255 0 0 / 50%) 5%, 
-                                        rgb(0 0 0/80%) 14% 18%,
-                                        rgb(0 0 0 /0%) 28%) */
-                            
-                                        ;
-            background-size: 130px 130px;
+                            var(--four), var(--five), var(--six);
+            background-size: var(--s) var(--s);
 
         }
 
